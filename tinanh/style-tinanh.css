@@ -1,0 +1,48 @@
+*{
+	margin: 0; padding: 0;
+}
+
+.slide-img {
+	margin: auto;
+	width: 980px;
+}
+.tieude {
+	width: 980px;
+	border-bottom: 4px solid orange;
+}
+
+.tieude h2 {
+	background-color: white;
+	color: orange;
+	display: inline-block;
+	padding: 0 10px;
+	position: relative;
+	top: 10px;
+	left: 30px;
+}
+
+.tin {
+	margin-top: 15px;
+	width: 980px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tin ._1tin {
+	width: 190px;
+	height: 200px;
+}
+
+.tin ._1tin img {
+	width: 190px;
+}
+
+._1tin a {
+	color: #333;
+	text-decoration: none;
+}
+
+._1tin a:hover {
+	text-decoration: underline;
+	color: blue;
+}
